@@ -4,7 +4,7 @@ Fetches stock data with a Bash script and displays it as an ASCII chart using Py
 
 ## Run
 ```bash
-./stonks.sh
+./stonks.sh {Stock Ticker}
 ```
 
 ## Sample
