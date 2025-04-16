@@ -1,6 +1,6 @@
 # Stock ASCII Viewer
 
-Fetches stock data with a Bash script and displays it as an ASCII chart using Python.
+Fetches stock data from the previous day with a Bash script and displays it as an ASCII chart using Python.
 
 ## Run
 ```bash
