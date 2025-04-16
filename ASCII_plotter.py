@@ -135,13 +135,6 @@ def plot_ascii_graph(prices, times=None, width=80, height=20):
     # Append a legend.
     result += f"\nMin: {min_price:.2f} | Max: {max_price:.2f} | Y-axis: Price | X-axis: Time\n"
     
-    # --- Append an extra column of time stamps after the legend (for full reference) ---
-    if times:
-        result += "\nAll Time Stamps:\n"
-        for t in times:
-            result += t + "\n\n"
-    # --- End appended time stamps ---
-    
     return result
 
 def main():
